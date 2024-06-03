@@ -39,7 +39,8 @@ def main():
     chrome_options.add_argument('--disable-logging')
     chrome_options.add_argument('--log-level=3')
     chrome_options.add_argument('--disable-extensions')
-
+    chrome_options.add_argument('--headless')  # Exécution en mode headless
+    
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(proxy_url)
 
@@ -56,5 +57,6 @@ if __name__ == '__main__':
     main()
 
 # ==========================================
+# Version 1.0.2
 # Copyright 2024 - Choukettas Corp 
 # ==========================================
