@@ -1,4 +1,4 @@
-# bot-Twitch-viewer 1.0.2
+# bot-Twitch-viewer 2.0.1
 bot pour générer des  viewer twich
 
 [ INSTALATION ]
